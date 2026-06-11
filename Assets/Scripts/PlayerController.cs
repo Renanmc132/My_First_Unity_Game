@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         _rb.MovePosition(_rb.position + direction.normalized * moveSpeed * Time.deltaTime);
@@ -60,9 +62,10 @@ public class PlayerController : MonoBehaviour
             types = 4;
         
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             types++;
+            Debug.Log("tipos mudo para: "+types);
         }
     }
 
