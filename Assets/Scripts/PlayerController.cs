@@ -69,12 +69,12 @@ public class PlayerController : MonoBehaviour
     {
         _shirtAnim.SetInteger("Type", types);
 
-        if (types > 4)
+        if (types > 3)
         {
             types = 1;
         }
         else if (types < 1)
-            types = 4;
+            types = 3;
 
 
         if (Input.GetKeyDown(KeyCode.C))

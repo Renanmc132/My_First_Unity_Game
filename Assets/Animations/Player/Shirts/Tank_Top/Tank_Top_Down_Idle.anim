@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tank_Top_V_Neck
+  m_Name: Tank_Top_Down_Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
