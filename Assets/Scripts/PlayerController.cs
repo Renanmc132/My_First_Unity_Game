@@ -46,7 +46,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        Debug.Log(_anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        Debug.Log(_hairAnim.GetCurrentAnimatorStateInfo(0).normalizedTime);
         Move();
         
     }
@@ -123,7 +124,7 @@ public class PlayerController : MonoBehaviour
             hairType = 3;
 
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.H))
         {
             hairType++;
         }
