@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using RangeAttribute = NUnit.Framework.RangeAttribute;
 
-public class ColoringShirt : MonoBehaviour
+public class ColoringCutomizable : MonoBehaviour
 {
 
     private SpriteRenderer _spr;
