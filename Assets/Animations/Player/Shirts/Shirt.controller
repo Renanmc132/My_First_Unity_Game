@@ -53,7 +53,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 60770c1b108b7c343a5ef139be1d6b2c, type: 2}
+    m_Motion: {fileID: 7400000, guid: a166e33aab80cf542aeeb0ca4292ef4b, type: 2}
     m_Threshold: 0.2857143
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -192,7 +192,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Long Sleeve BlendTree 0
+  m_Name: Long Sleeve Movement
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -827,7 +827,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 27ef0d0ac161bd248b107d112df92630, type: 2}
+    m_Motion: {fileID: 7400000, guid: d1997a8ed80ce964b907fbf15702a6fe, type: 2}
     m_Threshold: 0.2857143
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -931,7 +931,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c57228ebb3f04114ab335714039733f1, type: 2}
+    m_Motion: {fileID: 7400000, guid: eba91e7c8b12b524fb42827aac24b715, type: 2}
     m_Threshold: 0.2857143
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
