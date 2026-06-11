@@ -12,8 +12,10 @@ public class PlayerController : MonoBehaviour
     public GameObject _shirts;
     private int types = 1;
 
+    [Header("Movement")]
     private float moveSpeed = 5f;
     private Vector2 direction;
+    private Vector2 lastDirection;
     
 
     private void Awake()
@@ -27,20 +29,33 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        ChangeClothes();
+        
     }
 
     private void FixedUpdate()
     {
+        Debug.Log("LastX: "+ direction.x);
+        Debug.Log("LastY: " + direction.y);
 
+        Move();
+        ChangeClothes();
+    }
+
+    private void Move()
+    {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         _rb.MovePosition(_rb.position + direction.normalized * moveSpeed * Time.deltaTime);
 
-        if(direction.sqrMagnitude > 0.1)
+        if (direction.sqrMagnitude > 0.1f)
         {
             _anim.SetFloat("XInput", direction.x);
             _anim.SetFloat("YInput", direction.y);
+
+            lastDirection = direction;
+
+            _anim.SetFloat("LastX", lastDirection.x);
+            _anim.SetFloat("LastY", lastDirection.y);
 
             _anim.SetBool("Moviment", true);
         }
@@ -48,26 +63,24 @@ public class PlayerController : MonoBehaviour
         {
             _anim.SetBool("Moviment", false);
         }
-        
     }
 
     private void ChangeClothes()
     {
         _shirtAnim.SetInteger("Type", types);
 
-        if(types > 4)
+        if (types > 4)
         {
             types = 1;
-        }else if(types < 1)
+        }
+        else if (types < 1)
             types = 4;
-        
+
 
         if (Input.GetKeyDown(KeyCode.C))
         {
             types++;
-            Debug.Log("tipos mudo para: "+types);
         }
     }
-
 
 }
