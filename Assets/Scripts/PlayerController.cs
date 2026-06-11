@@ -7,14 +7,19 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator _anim;
 
-    [Header("Shirts Variables")]
+    [Header("Customizable Variables")]
     private Animator _shirtAnim;
     public GameObject _shirts;
     private int types = 1;
 
-    [Header("Pants Variables")]
     private Animator _pantsAnim;
     public GameObject _pants;
+
+    private Animator _hairAnim;
+    public GameObject _hair;
+    private int hairType = 1;
+
+   
 
     [Header("Movement")]
     private float moveSpeed = 5f;
@@ -29,12 +34,14 @@ public class PlayerController : MonoBehaviour
         _spr = GetComponent<SpriteRenderer>();
         _shirtAnim = _shirts.GetComponent<Animator>();
         _pantsAnim = _pants.GetComponent<Animator>();
+        _hairAnim = _hair.GetComponent<Animator>();
     }
 
 
     void Update()
     {
         ChangeClothes();
+        ChangeHair();
     }
 
     private void FixedUpdate()
@@ -58,6 +65,8 @@ public class PlayerController : MonoBehaviour
             _shirtAnim.SetFloat("YInput", direction.y);
             _pantsAnim.SetFloat("XInput", direction.x);
             _pantsAnim.SetFloat("YInput", direction.y);
+            _hairAnim.SetFloat("XInput", direction.x);
+            _hairAnim.SetFloat("YInput", direction.y);
 
             lastDirection = direction;
 
@@ -67,16 +76,20 @@ public class PlayerController : MonoBehaviour
             _shirtAnim.SetFloat("LastY", lastDirection.y);
             _pantsAnim.SetFloat("LastX", lastDirection.x);
             _pantsAnim.SetFloat("LastY", lastDirection.y);
+            _hairAnim.SetFloat("LastX", lastDirection.x);
+            _hairAnim.SetFloat("LastY", lastDirection.y);
 
             _anim.SetBool("Moviment", true);
             _shirtAnim.SetBool("Moviment", true);
             _pantsAnim.SetBool("Moviment", true);
+            _hairAnim.SetBool("Moviment", true);
         }
         else
         {
             _anim.SetBool("Moviment", false);
             _shirtAnim.SetBool("Moviment", false);
             _pantsAnim.SetBool("Moviment", false);
+            _hairAnim.SetBool("Moviment", false);
         }
     }
 
@@ -95,6 +108,24 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             types++;
+        }
+    }
+
+    private void ChangeHair()
+    {
+        _hairAnim.SetInteger("hairType", hairType);
+
+        if (hairType > 3)
+        {
+            hairType = 1;
+        }
+        else if (hairType < 1)
+            hairType = 3;
+
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            hairType++;
         }
     }
 

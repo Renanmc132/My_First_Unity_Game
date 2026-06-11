@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 231490667}
   - component: {fileID: 231490668}
   m_Layer: 5
-  m_Name: sldHUE
+  m_Name: sldHUEShirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,7 +983,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 12
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1259883641792242872, guid: ad8e7f386f0020347bcf7ffb616ac7e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1339,7 +1339,7 @@ GameObject:
   - component: {fileID: 1105180397}
   - component: {fileID: 1105180398}
   m_Layer: 5
-  m_Name: sldSaturation
+  m_Name: sldSaturationShirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2254,6 +2254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   _shirts: {fileID: 1477557231}
   _pants: {fileID: 598190364}
+  _hair: {fileID: 761389368}
 --- !u!1 &1901910183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,7 +2266,7 @@ GameObject:
   - component: {fileID: 1901910184}
   - component: {fileID: 1901910185}
   m_Layer: 5
-  m_Name: sldBrightness
+  m_Name: sldBrightnessShirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2385,8 +2386,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 1222264112}
   - {fileID: 619394802}
   - {fileID: 1723860135}
   - {fileID: 1608896922}
   - {fileID: 466169007}
-  - {fileID: 1222264112}
