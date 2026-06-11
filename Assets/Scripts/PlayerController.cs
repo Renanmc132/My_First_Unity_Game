@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log("LastX: "+ types);
 
         Move();
         
