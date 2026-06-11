@@ -1998,6 +1998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   _shirts: {fileID: 1477557231}
+  _pants: {fileID: 598190364}
 --- !u!1 &1901910183
 GameObject:
   m_ObjectHideFlags: 0
