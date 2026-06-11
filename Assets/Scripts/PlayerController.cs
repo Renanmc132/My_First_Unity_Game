@@ -29,16 +29,15 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        
+        ChangeClothes();
     }
 
     private void FixedUpdate()
     {
-        Debug.Log("LastX: "+ direction.x);
-        Debug.Log("LastY: " + direction.y);
+        Debug.Log("LastX: "+ types);
 
         Move();
-        ChangeClothes();
+        
     }
 
     private void Move()
@@ -51,17 +50,23 @@ public class PlayerController : MonoBehaviour
         {
             _anim.SetFloat("XInput", direction.x);
             _anim.SetFloat("YInput", direction.y);
+            _shirtAnim.SetFloat("XInput", direction.x);
+            _shirtAnim.SetFloat("YInput", direction.y);
 
             lastDirection = direction;
 
             _anim.SetFloat("LastX", lastDirection.x);
             _anim.SetFloat("LastY", lastDirection.y);
+            _shirtAnim.SetFloat("LastX", lastDirection.x);
+            _shirtAnim.SetFloat("LastY", lastDirection.y);
 
             _anim.SetBool("Moviment", true);
+            _shirtAnim.SetBool("Moviment", true);
         }
         else
         {
             _anim.SetBool("Moviment", false);
+            _shirtAnim.SetBool("Moviment", false);
         }
     }
 
