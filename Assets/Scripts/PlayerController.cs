@@ -40,21 +40,20 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         ChangeClothes();
         ChangeHair();
     }
 
     private void FixedUpdate()
     {
-        Debug.Log(_anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        Debug.Log(_hairAnim.GetCurrentAnimatorStateInfo(0).normalizedTime);
         Move();
         
     }
 
     private void Move()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+       
 
         _rb.MovePosition(_rb.position + direction.normalized * moveSpeed * Time.deltaTime);
 
