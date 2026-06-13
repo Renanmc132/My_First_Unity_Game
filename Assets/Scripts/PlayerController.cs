@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
-        
+        ChangeHair();
     }
 
     private void Move()
