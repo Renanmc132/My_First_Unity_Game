@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: e2733b466476ddf45a4ac92f81270b62
+guid: 0857374a8b2c4144fae884aff4b91522
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7877704855510896641
-    second: Hair2_0
+      213: -2114437738713760606
+    second: Hair1_0
   - first:
-      213: 1558480857121560159
-    second: Hair2_1
+      213: 7668679410543562793
+    second: Hair1_1
   - first:
-      213: -1335499110792937320
-    second: Hair2_2
+      213: -2508228428793789438
+    second: Hair1_2
   - first:
-      213: -3343213490930355426
-    second: Hair2_3
+      213: -7905831835670584386
+    second: Hair1_3
   - first:
-      213: 4930351182663917561
-    second: Hair2_4
+      213: -5759706402470413095
+    second: Hair1_4
   - first:
-      213: -5789134297586860394
-    second: Hair2_5
+      213: -1515090067043680422
+    second: Hair1_5
   - first:
-      213: 6322754952467372595
-    second: Hair2_6
+      213: -8910359527383372126
+    second: Hair1_6
   - first:
-      213: -5672550801019267095
-    second: Hair2_7
+      213: 8862519182237940383
+    second: Hair1_7
   - first:
-      213: 8430473287766457165
-    second: Hair2_8
+      213: 7228297558335749505
+    second: Hair1_8
   - first:
-      213: -218236426448495279
-    second: Hair2_9
+      213: -843602641428386230
+    second: Hair1_9
   - first:
-      213: -8778222483294820510
-    second: Hair2_10
+      213: -6268610204873926629
+    second: Hair1_10
   - first:
-      213: 5323272718261183401
-    second: Hair2_11
+      213: 2264667451955039833
+    second: Hair1_11
   - first:
-      213: 7199234233065636116
-    second: Hair2_12
+      213: -1164199810586111051
+    second: Hair1_12
   - first:
-      213: -6735384757533444687
-    second: Hair2_13
+      213: 9015336630739323402
+    second: Hair1_13
   - first:
-      213: 2912654409889277946
-    second: Hair2_14
+      213: -9214022425362238776
+    second: Hair1_14
   - first:
-      213: 5001156470292079758
-    second: Hair2_15
+      213: 8323040291772010311
+    second: Hair1_15
   - first:
-      213: 6118946162927163737
-    second: Hair2_16
+      213: 3759313523501105700
+    second: Hair1_16
   - first:
-      213: -7711127509582782468
-    second: Hair2_17
+      213: -4877848149768870982
+    second: Hair1_17
   - first:
-      213: 2273373712872273542
-    second: Hair2_18
+      213: 7404091408826813644
+    second: Hair1_18
   - first:
-      213: -7990511778612543367
-    second: Hair2_19
+      213: -524878307939885096
+    second: Hair1_19
   - first:
-      213: 3584143798582206956
-    second: Hair2_20
+      213: 4727744073325282485
+    second: Hair1_20
   - first:
-      213: 2453204301502713034
-    second: Hair2_21
+      213: 3464111625119657672
+    second: Hair1_21
   - first:
-      213: 3960320704233331269
-    second: Hair2_22
+      213: -1892395952473859507
+    second: Hair1_22
   - first:
-      213: 842871157925637601
-    second: Hair2_23
+      213: 623828960390275974
+    second: Hair1_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -182,529 +182,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hair2_0
+      name: Hair1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 55
-        width: 13
-        height: 9
+        x: 0
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 100d81604da335d60800000000000000
-      internalID: 7877704855510896641
+      spriteID: 2ac3944541208a2e0800000000000000
+      internalID: -2114437738713760606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_1
+      name: Hair1_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 55
-        width: 13
-        height: 9
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f561af51516d0a510800000000000000
-      internalID: 1558480857121560159
+      spriteID: 9201dc12b4f9c6a60800000000000000
+      internalID: 7668679410543562793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_2
+      name: Hair1_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 54
-        width: 13
-        height: 10
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 890465f62aa577de0800000000000000
-      internalID: -1335499110792937320
+      spriteID: 204c53e788bf03dd0800000000000000
+      internalID: -2508228428793789438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_3
+      name: Hair1_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 55
-        width: 13
-        height: 9
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e137dc80b058a91d0800000000000000
-      internalID: -3343213490930355426
+      spriteID: eb361e415d7d84290800000000000000
+      internalID: -7905831835670584386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_4
+      name: Hair1_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 55
-        width: 13
-        height: 9
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ff1c9c47402c6440800000000000000
-      internalID: 4930351182663917561
+      spriteID: 9dc353e0b896110b0800000000000000
+      internalID: -5759706402470413095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_5
+      name: Hair1_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 54
-        width: 13
-        height: 10
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69efd4b470dd8afa0800000000000000
-      internalID: -5789134297586860394
+      spriteID: a5f732f7c9159fae0800000000000000
+      internalID: -1515090067043680422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_6
+      name: Hair1_6
       rect:
         serializedVersion: 2
-        x: 2
-        y: 39
-        width: 13
-        height: 10
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33ad8af3120feb750800000000000000
-      internalID: 6322754952467372595
+      spriteID: 2aeeb4d083b085480800000000000000
+      internalID: -8910359527383372126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_7
+      name: Hair1_7
       rect:
         serializedVersion: 2
-        x: 18
-        y: 39
-        width: 13
-        height: 10
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e793e6d91d0741b0800000000000000
-      internalID: -5672550801019267095
+      spriteID: f9ab0689d3efdfa70800000000000000
+      internalID: 8862519182237940383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_8
+      name: Hair1_8
       rect:
         serializedVersion: 2
-        x: 34
-        y: 38
-        width: 13
-        height: 10
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4b3db5e9ce0ff470800000000000000
-      internalID: 8430473287766457165
+      spriteID: 18dfc670552105460800000000000000
+      internalID: 7228297558335749505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_9
+      name: Hair1_9
       rect:
         serializedVersion: 2
-        x: 50
-        y: 39
-        width: 13
-        height: 10
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15d9c7c502ba8fcf0800000000000000
-      internalID: -218236426448495279
+      spriteID: a4e64120edbea44f0800000000000000
+      internalID: -843602641428386230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_10
+      name: Hair1_10
       rect:
         serializedVersion: 2
-        x: 66
-        y: 39
-        width: 13
-        height: 10
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2676dd3192d7d2680800000000000000
-      internalID: -8778222483294820510
+      spriteID: b18d91f2b3c6109a0800000000000000
+      internalID: -6268610204873926629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_11
+      name: Hair1_11
       rect:
         serializedVersion: 2
-        x: 82
-        y: 38
-        width: 13
-        height: 10
+        x: 80
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a36c76555010e940800000000000000
-      internalID: 5323272718261183401
+      spriteID: 95e4b208c07bd6f10800000000000000
+      internalID: 2264667451955039833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_12
+      name: Hair1_12
       rect:
         serializedVersion: 2
-        x: 1
-        y: 22
-        width: 14
-        height: 11
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41185bc4461d8e360800000000000000
-      internalID: 7199234233065636116
+      spriteID: 5b31072c07ee7dfe0800000000000000
+      internalID: -1164199810586111051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_13
+      name: Hair1_13
       rect:
         serializedVersion: 2
-        x: 17
-        y: 22
-        width: 14
-        height: 11
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b573a5af3b1782a0800000000000000
-      internalID: -6735384757533444687
+      spriteID: a0ac8cd76e8ec1d70800000000000000
+      internalID: 9015336630739323402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_14
+      name: Hair1_14
       rect:
         serializedVersion: 2
-        x: 33
-        y: 21
-        width: 14
-        height: 11
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af7eceef0c3db6820800000000000000
-      internalID: 2912654409889277946
+      spriteID: 8c2fccf0c67312080800000000000000
+      internalID: -9214022425362238776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_15
+      name: Hair1_15
       rect:
         serializedVersion: 2
-        x: 49
-        y: 22
-        width: 14
-        height: 11
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e84e7edff4da76540800000000000000
-      internalID: 5001156470292079758
+      spriteID: 74f855a4c01618370800000000000000
+      internalID: 8323040291772010311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_16
+      name: Hair1_16
       rect:
         serializedVersion: 2
-        x: 65
-        y: 22
-        width: 14
-        height: 11
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95953099d1ddae450800000000000000
-      internalID: 6118946162927163737
+      spriteID: 4220b9f5bb3cb2430800000000000000
+      internalID: 3759313523501105700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_17
+      name: Hair1_17
       rect:
         serializedVersion: 2
-        x: 81
-        y: 21
-        width: 14
-        height: 11
+        x: 80
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cff5395a2629cf490800000000000000
-      internalID: -7711127509582782468
+      spriteID: ab3eab4a3f66e4cb0800000000000000
+      internalID: -4877848149768870982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_18
+      name: Hair1_18
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8
-        width: 14
-        height: 9
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6867675d855ac8f10800000000000000
-      internalID: 2273373712872273542
+      spriteID: cccc4a368ed90c660800000000000000
+      internalID: 7404091408826813644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_19
+      name: Hair1_19
       rect:
         serializedVersion: 2
-        x: 17
-        y: 8
-        width: 14
-        height: 9
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97089367fdffb1190800000000000000
-      internalID: -7990511778612543367
+      spriteID: 8df5fe8b5f147b8f0800000000000000
+      internalID: -524878307939885096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_20
+      name: Hair1_20
       rect:
         serializedVersion: 2
-        x: 33
-        y: 7
-        width: 14
-        height: 9
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce169629bcf6db130800000000000000
-      internalID: 3584143798582206956
+      spriteID: 5b4038f9f225c9140800000000000000
+      internalID: 4727744073325282485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_21
+      name: Hair1_21
       rect:
         serializedVersion: 2
-        x: 49
-        y: 8
-        width: 14
-        height: 9
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acc878880588b0220800000000000000
-      internalID: 2453204301502713034
+      spriteID: 8ceee8d5b2ff21030800000000000000
+      internalID: 3464111625119657672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_22
+      name: Hair1_22
       rect:
         serializedVersion: 2
-        x: 65
-        y: 8
-        width: 14
-        height: 9
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54ad374a2b2e5f630800000000000000
-      internalID: 3960320704233331269
+      spriteID: d4a986658ebdcb5e0800000000000000
+      internalID: -1892395952473859507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair2_23
+      name: Hair1_23
       rect:
         serializedVersion: 2
-        x: 81
-        y: 7
-        width: 14
-        height: 9
+        x: 80
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ed64973ada72bb00800000000000000
-      internalID: 842871157925637601
+      spriteID: 683e9a0622948a800800000000000000
+      internalID: 623828960390275974
       vertices: []
       indices: 
       edges: []
@@ -713,7 +713,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 390ea3460f648f5419d8d74249fe1836
     internalID: 0
     vertices: []
     indices: 
@@ -721,32 +721,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Hair2_0: 7877704855510896641
-      Hair2_1: 1558480857121560159
-      Hair2_10: -8778222483294820510
-      Hair2_11: 5323272718261183401
-      Hair2_12: 7199234233065636116
-      Hair2_13: -6735384757533444687
-      Hair2_14: 2912654409889277946
-      Hair2_15: 5001156470292079758
-      Hair2_16: 6118946162927163737
-      Hair2_17: -7711127509582782468
-      Hair2_18: 2273373712872273542
-      Hair2_19: -7990511778612543367
-      Hair2_2: -1335499110792937320
-      Hair2_20: 3584143798582206956
-      Hair2_21: 2453204301502713034
-      Hair2_22: 3960320704233331269
-      Hair2_23: 842871157925637601
-      Hair2_3: -3343213490930355426
-      Hair2_4: 4930351182663917561
-      Hair2_5: -5789134297586860394
-      Hair2_6: 6322754952467372595
-      Hair2_7: -5672550801019267095
-      Hair2_8: 8430473287766457165
-      Hair2_9: -218236426448495279
+      Hair1_0: -2114437738713760606
+      Hair1_1: 7668679410543562793
+      Hair1_10: -6268610204873926629
+      Hair1_11: 2264667451955039833
+      Hair1_12: -1164199810586111051
+      Hair1_13: 9015336630739323402
+      Hair1_14: -9214022425362238776
+      Hair1_15: 8323040291772010311
+      Hair1_16: 3759313523501105700
+      Hair1_17: -4877848149768870982
+      Hair1_18: 7404091408826813644
+      Hair1_19: -524878307939885096
+      Hair1_2: -2508228428793789438
+      Hair1_20: 4727744073325282485
+      Hair1_21: 3464111625119657672
+      Hair1_22: -1892395952473859507
+      Hair1_23: 623828960390275974
+      Hair1_3: -7905831835670584386
+      Hair1_4: -5759706402470413095
+      Hair1_5: -1515090067043680422
+      Hair1_6: -8910359527383372126
+      Hair1_7: 8862519182237940383
+      Hair1_8: 7228297558335749505
+      Hair1_9: -843602641428386230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

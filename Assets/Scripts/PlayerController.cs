@@ -42,7 +42,6 @@ public class PlayerController : MonoBehaviour
     {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         ChangeClothes();
-        ChangeHair();
     }
 
     private void FixedUpdate()
